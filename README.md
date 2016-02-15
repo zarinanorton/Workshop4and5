@@ -1,4 +1,3 @@
-# Team Project: Client Side
+# Workshop 4
 
-This repository will hold the *client side* of your team project. The client
-side of your project runs in the browser.
+This repository will hold your Workshop 4 submission.
