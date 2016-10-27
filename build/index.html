@@ -9,8 +9,11 @@
 
     <!-- Bootstrap's CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
+
     <link href="css/facebook.css" rel="stylesheet">
+
+    <!-- JS classes -->
+    <script src="app/app.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -232,22 +235,17 @@
               <hr>
               <ul class="media-list">
                 <li class="media">
-                  <div class="media-left media-top">
-                    PIC
-                  </div>
-                  <div class="media-body">
-                    <a href="#">Someone Else</a> hope everything is ok!
-                    <br><a href="#">Like</a> · <a href="#">Reply</a> · 20 hrs
-                  </div>
+                  <Comment author="Someone Else" postDate="20 hrs">
+                    hope everything is ok!
+                  </Comment>
                 </li>
                 <li class="media">
-                  <div class="media-left media-top">
-                    PIC
-                  </div>
-                  <div class="media-body">
-                    <a href="#">Another Person</a> sending hugs your way
-                    <br><a href="#">Like</a> · <a href="#">Reply</a> · 20 hrs
-                  </div>
+                  <CommentThread>
+                    <Comment author="Someone Else" postDate="20 hrs">
+                      hope everything is ok!
+                    </Comment>
+                      ...
+                  </CommentThread>
                 </li>
                 <li class="media">
                   <div class="media-left media-top">
@@ -385,7 +383,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
